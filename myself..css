@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+li,a{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(222, 229, 236);
+
+}
+header{
+    padding-top: 10px;
+    height:50px;
+    background-color: rgb(21, 21, 21);
+    justify-content: center;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    top:0px;
+}
+.navl li{
+    padding-top: 30px;
+    display: inline-block;
+    padding: 0 20px;
+    position: sticky;
+}
+
+.navl li a:hover{
+    color: rgb(212, 156, 53);
+
+
+}
+section{
+    padding-top: 10x;
+}
+
+.hello{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+     
+}
+.hello::before{
+    content: '';
+
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.35;
+}
+.h1{
+    padding-top: 200px;
+    color: rgb(16, 18, 16);
+    padding-left: 100px;
+    font-size: 80px;
+
+}
+#About{
+    padding-top: 30px;
+}
+.main{
+    background-color: rgb(45, 43, 52);
+    height: 70vh;
+
+}
+.abt{
+   width: 50% ;
+   height: 30%;
+   /* background-color: aliceblue; */
+   position: absolute;
+   left:100px;
+   border-radius: 60px;
+   padding-top: 50px;
+   padding-left: 100px;
+   font-size: 25px;
+   text-align: justify;
+   color: hsl(0, 35%, 79%);
+   display:inline-block;
+   
+}
+.abt1{
+    padding-top: 30px;
+    width: 50% ;
+    height: 100%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left:100px;
+    border-radius: 60px;
+    font-size: 20px;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    
+ }
+h5{
+    font-size: 25px;
+}
+.h11{
+    font-size: 60px;
+    padding-left: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 600;
+    color: rgb(236, 224, 224);
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image{
+    width: 80%;
+    height: 85%;
+    padding-left: 900px;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.h2{
+    color: ghostwhite;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+.skills{
+    background-color: rgb(47, 45, 45);
+    height: 80vh;
+    margin-top: 5px;
+ 
+}
+.skills1{
+    width: 75%;
+    height: 75%;
+    
+    margin-left: 200px;
+    text-align: center;
+    background-color:rgb(80, 79, 79); ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+h3{
+    color: aliceblue;
+}
+
+.con{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(160, 162, 163);
+    border-radius: 20px;
+}
+.html,.cpp,.py,.cs,.tw{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+}
+.html{
+    width: 70%;
+    background-color: darkgreen;
+}
+.cpp{
+    width: 75%;
+    background-color: rgb(6, 180, 24);
+}
+.py{
+    width: 65%;
+    background-color: rgb(170, 193, 24);
+}
+.cs{
+    width: 75%;
+    background-color: rgb(193, 94, 24);
+
+}
+.tw{
+    width: 80%;
+    background-color: rgb(102, 43, 180);
+
+}
+
+#Contact{
+    background-color: rgb(16, 13, 13);
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    color: #494545; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #ea071e;
+    color: rgb(94, 92, 92);
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #86056e;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    color: white;
+    background-color: #494545;
+    padding: 20px;
+    top:300px;
+  }
+  #h{
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+  }
+
+@media screen and (max-width:600px) {
+    .h1{
+        padding-top: 20px;
+        color: rgb(16, 18, 16);
+        padding-left: 10px;
+        font-size: 30px;
+    
+    }
+    #home{
+        width: 100px;
+        height: 50px;
+    }
+    header{
+        padding-top: 30px;
+        height:30px;
+        background-color: rgb(21, 21, 21);
+        justify-content: center;
+        padding: 30px 20px;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        z-index: 1000;
+        top:0px;
+    }
+    .hello{
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        
+    
+         
+    }
+    li,a{
+        padding-top: 15px;
+        scroll-behavior: smooth;
+        text-decoration: none;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color:rgb(222, 229, 236);
+    
+    }
+    .main{
+        background-color: rgb(45, 43, 52);
+        height: 100vh;
+    
+    }
+    .abt{
+        top: 900px;
+        width: 450px ;
+        height: 440px;
+        /* background-color: aliceblue; */
+        position: absolute;
+        left:2px;
+        border-radius: 60px;
+        padding-top: 50px;
+        padding-left: 30px;
+        font-size: 5px;
+        text-align: justify;
+        color: hsl(0, 0%, 83%);
+        display:inline-block;
+        
+     }
+     .h11{
+        font-size: 30px;
+        padding-left: 120px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        font-weight: 800;
+        color: rgb(236, 224, 224);
+    }
+    h5{
+        font-size: 17px;
+    }
+    .image{
+        width: 370px;
+        height: 200px;
+        padding-left: 80px;
+        padding-top: 20px;
+        height: 100vh;
+    }
+    .h2{
+        color: ghostwhite;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .skills1{
+        margin-top: 40px;
+        width: 380px;
+        height: 400px;
+        
+        margin-left: 50px;
+        text-align: center;
+        background-color:rgb(80, 79, 79); ;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+}
+/* .myimg{
+
+    /* position: absolute;
+    left: 50%; */
+/*     
+    
+    background-image: url(p.jpg);
+    width: 70vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+} */ 
