@@ -262,6 +262,7 @@ input[type=text], select, textarea {
         color: rgb(16, 18, 16);
         padding-left: 10px;
         font-size: 50px;
+        text-align: justify;
         
     
     }
