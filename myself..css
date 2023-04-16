@@ -261,7 +261,7 @@ input[type=text], select, textarea {
         padding-top: 20px;
         color: rgb(16, 18, 16);
         padding-left: 10px;
-        font-size: 2rem;
+        font-size: 30px;
         
     
     }
@@ -271,8 +271,8 @@ input[type=text], select, textarea {
     }
     header{
         width: 80vh;
-        padding-top: 30px;
-        height:30px;
+        padding-top: 40px;
+        height:45px;
         background-color: rgb(21, 21, 21);
         justify-content: center;
         padding: 30px 20px;
@@ -313,7 +313,7 @@ input[type=text], select, textarea {
         scroll-behavior: smooth;
         text-decoration: none;
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 17px;
         color:rgb(222, 229, 236);
     
     }
@@ -334,7 +334,7 @@ input[type=text], select, textarea {
         position: absolute;
         left:2px;
         border-radius: 60px;
-        margin-top: -100px;
+        margin-top: 10px;
         padding-left: 30px;
         font-size: 5px;
         text-align: justify;
@@ -354,10 +354,10 @@ input[type=text], select, textarea {
         font-size: 17px;
     }
     .image{
-        width: 370px;
-        height: 200px;
-        padding-left: 80px;
-        padding-top: 20px;
+        width: 390px;
+        height: 240px;
+        padding-left: 160px;
+        padding-top: 28px;
         height: 100vh;
     }
     .h2{
@@ -368,8 +368,8 @@ input[type=text], select, textarea {
     }
     .skills1{
         margin-top: 40px;
-        width: 400px;
-        height: 400px;
+        width: 60%;
+        height: 60%;
         
         margin-left: 50px;
         text-align: center;
