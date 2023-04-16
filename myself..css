@@ -256,12 +256,13 @@ input[type=text], select, textarea {
     color: whitesmoke;
   }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width:200px){
     .h1{
         padding-top: 20px;
         color: rgb(16, 18, 16);
         padding-left: 10px;
-        font-size: 30px;
+        font-size: 2rem;
+        
     
     }
     #home{
@@ -269,6 +270,7 @@ input[type=text], select, textarea {
         height: 50px;
     }
     header{
+        width: 80vh;
         padding-top: 30px;
         height:30px;
         background-color: rgb(21, 21, 21);
@@ -291,6 +293,21 @@ input[type=text], select, textarea {
     
          
     }
+    .hello::before{
+        content: '';
+    
+        top:0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width:80vh;
+        background-image: url(bg.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        opacity: 0.35;
+    }
     li,a{
         padding-top: 15px;
         scroll-behavior: smooth;
@@ -302,8 +319,12 @@ input[type=text], select, textarea {
     }
     .main{
         background-color: rgb(45, 43, 52);
-        height: 100vh;
+        height: 102vh;
+        width:80vh
     
+    }
+    #About{
+        padding-top: 5px;
     }
     .abt{
         top: 900px;
@@ -313,7 +334,7 @@ input[type=text], select, textarea {
         position: absolute;
         left:2px;
         border-radius: 60px;
-        padding-top: 50px;
+        margin-top: -100px;
         padding-left: 30px;
         font-size: 5px;
         text-align: justify;
@@ -322,6 +343,7 @@ input[type=text], select, textarea {
         
      }
      .h11{
+        margin-top: 10px;
         font-size: 30px;
         padding-left: 120px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -346,7 +368,7 @@ input[type=text], select, textarea {
     }
     .skills1{
         margin-top: 40px;
-        width: 380px;
+        width: 400px;
         height: 400px;
         
         margin-left: 50px;
@@ -355,6 +377,58 @@ input[type=text], select, textarea {
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     }
+    .skills{
+        background-color: rgb(47, 45, 45);
+        height: 85vh;
+        width:80vh;
+        margin-top: 5px;
+     
+    }
+    #Contact{
+        background-color: rgb(16, 13, 13);
+        width:80vh;
+    }
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        color: #494545; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      
+      
+      input[type=submit] {
+        background-color: #ea071e;
+        color: rgb(94, 92, 92);
+        padding: 12px 20px;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      
+      input[type=submit]:hover {
+        background-color: #86056e;
+      }
+      
+    
+      .container {
+        border-radius: 5px;
+        color: white;
+        background-color: #494545;
+        padding: 20px;
+        top:300px;
+      }
+      #h{
+        text-align: center;
+        padding-top: 10px;
+        color: whitesmoke;
+      }
 }
 /* .myimg{
 
